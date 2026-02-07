@@ -1,0 +1,184 @@
+name: Collaboration Proposal
+description: Submit a proposal for potential collaboration on The-Wave-by-iRNA project
+title: "[COLLABORATION] "
+labels: ["collaboration-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in collaborating! Please fill out this form with specific details about your proposal.
+        
+        **Before submitting**: Review our [Collaboration Guidelines](../../COLLABORATION.md) to ensure your proposal aligns with our focus areas.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: How can we reach you?
+      placeholder: email@example.com or GitHub username
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Collaboration Objectives
+      description: What are the specific goals of this collaboration?
+      placeholder: |
+        1. Develop a new RNA analysis algorithm for...
+        2. Create visualization tools for...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: focus-areas
+    attributes:
+      label: Project Focus Areas
+      description: Which areas does this collaboration address? (Select all that apply)
+      options:
+        - label: RNA Analysis
+        - label: Bioinformatics
+        - label: Wave-Based Analysis
+        - label: Data Visualization
+        - label: Research & Publications
+        - label: Other
+
+  - type: textarea
+    id: alignment
+    attributes:
+      label: Alignment with Project
+      description: Explain how this collaboration aligns with The-Wave-by-iRNA project goals
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed Approach
+      description: Describe your methodology or approach
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What will be included (and excluded) in this collaboration?
+      placeholder: |
+        **In Scope:**
+        - Item 1
+        - Item 2
+        
+        **Out of Scope:**
+        - Item 1
+        - Item 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: What concrete outputs will this collaboration produce?
+      placeholder: |
+        1. [Deliverable] - [Description] - [Target: MM/YYYY]
+        2. [Deliverable] - [Description] - [Target: MM/YYYY]
+    validations:
+      required: true
+
+  - type: textarea
+    id: expertise
+    attributes:
+      label: Your Expertise
+      description: What relevant experience, skills, or knowledge do you bring?
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources Needed
+      description: What resources (time, tools, data, etc.) are required from each party?
+      placeholder: |
+        **From me:**
+        - Resource 1
+        
+        **From The-Wave-by-iRNA:**
+        - Resource 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      description: What is the proposed timeline with key milestones?
+      placeholder: |
+        - Planning: [Duration] - [Date]
+        - Implementation: [Duration] - [Date]
+        - Completion: [Date]
+    validations:
+      required: true
+
+  - type: input
+    id: time-commitment
+    attributes:
+      label: Time Commitment
+      description: How much time can you realistically commit per week?
+      placeholder: "e.g., 5-10 hours per week for 3 months"
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Mutual Benefits
+      description: How will both parties benefit from this collaboration?
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-metrics
+    attributes:
+      label: Success Metrics
+      description: How will success be measured?
+      placeholder: |
+        - Metric 1
+        - Metric 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: challenges
+    attributes:
+      label: Potential Challenges & Mitigation
+      description: What challenges do you foresee and how can they be addressed?
+      placeholder: |
+        **Challenge:** [Description]
+        **Mitigation:** [Strategy]
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References or Examples
+      description: Include any relevant links, papers, or examples of related work
+      placeholder: |
+        - Link 1
+        - Link 2
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      description: Please confirm you have completed the following
+      options:
+        - label: I have reviewed the [Collaboration Guidelines](../../COLLABORATION.md)
+          required: true
+        - label: I have provided specific, concrete details in this proposal
+          required: true
+        - label: The timeline and resource estimates are realistic
+          required: true
+        - label: The scope and deliverables are clearly defined
+          required: true
+        - label: I understand this is a preliminary proposal subject to review and feedback
+          required: true
